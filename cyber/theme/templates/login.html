@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+{% comment %} <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -15,7 +15,7 @@
      <input type="submit" value = "Submit" class="btn btn-secondary">
 
   </form> {% endcomment %}
-  <form class="flex justify-center items-center flex-col" method="POST" action="">
+  {% comment %} <form class="flex justify-center items-center flex-col" method="POST" action="">
     {% csrf_token %}
     <div class="p-3 rounded-xl hover:bg-blue-500">
         <p class="font-semibold">Email:</p>
@@ -28,4 +28,4 @@
     <input class="bg-gray-200 hover:bg-gray-600 hover:text-white rounded-xl w-fit px-4 py-2 mt-1 font-bold" type="submit" name="Login">
 </form>
 </body>
-</html>
+</html> {% endcomment %} 

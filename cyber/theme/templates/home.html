@@ -22,7 +22,7 @@
         <div class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
                 <div class="flex items-center">
-                    <a class="text-xl font-semibold text-white" href="#">My Website</a>
+                    <a class="text-xl font-semibold text-white" href="#">My hh Website</a>
                 </div>
                 <div class="flex items-center">
                     <div class="relative group">
@@ -46,15 +46,15 @@
                         </div>
                     </div>
                 </div>
-                {% if user.is_authenticated %}
-                <div class="flex flex-col font-poppins font-semibold">
-                    <a class="navlink" href="{% url 'logout' %}">Logout</a>
-                </div>
-                {% else %}
-                <div class="flex flex-col font-poppins font-semibold">
-                    <a class="navlink" href="{% url 'login' %}">Login</a>
-                </div>
-                {% endif %}
+                    {% if user.is_authenticated %}
+                    <div class="flex flex-col font-poppins font-semibold text-white">
+                        <a class="navlink" href="{% url 'login' %}">Logout</a>
+                    </div>
+                    {% else %}
+                    <div class="flex flex-col font-poppins font-semibold text-white">
+                        <a class="navlink" href="{% url 'login' %}">Login</a>
+                    </div>
+                    {% endif %}
             </div>
         </div>
     </nav>

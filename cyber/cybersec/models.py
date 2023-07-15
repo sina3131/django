@@ -37,7 +37,10 @@ class User(AbstractUser):
         related_query_name='cybersec_user_permission',
         
     )
-   
+
+
+
+
 
 class Device(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)

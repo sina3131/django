@@ -1,3 +1,5 @@
+{% block content %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -32,5 +34,20 @@
         <h1 class="text-3xl font-semibold">Welcome to My Website!</h1>
         <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper nunc non sem feugiat eleifend.</p>
     </div>
+
+    <div>
+        {% for device in device_info  %}
+            {{ device.device_name }}
+            {{ device.user}}
+            {{ device.ip_address }}
+            {{ device.device_type }}
+            {{ device.operating_system }}
+            {{ device.port_info}}
+            {{ device.auth_credintials }}
+            {{ device.scan_preferces }}
+            {{ device.scan_schudule }}
+        {% endfor %}
+    </div>
 </body>
 </html>
+{% endblock %}

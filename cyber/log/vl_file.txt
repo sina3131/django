@@ -1,0 +1,21 @@
+1. Apache HTTP Server
+2. Microsoft Windows SMB
+3. OpenSSL
+4. WordPress
+5. Drupal
+6. Tomcat
+7. PHPMyAdmin
+8. MySQL Server
+9. Nginx
+10. OpenSSH
+11. Telnet
+12. FTP Server
+13. Microsoft Exchange
+14. Cisco IOS
+15. Oracle Database
+16. PostgreSQL
+17. MongoDB
+18. ElasticSearch
+19. Jenkins
+20. Redis Server
+Vulnerable Software XYZ
